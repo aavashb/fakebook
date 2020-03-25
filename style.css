@@ -1,0 +1,283 @@
+body {
+margin: 0;
+font-family: sans-serif;
+color: #CACFD2 ;
+}
+a{
+font-family: sans-serif;
+color: #CACFD2 ;
+text-decoration: none;
+font-size: 0.38cm;
+}
+.top-container{
+position: relative;
+border:0;
+background-color: #3b5998;
+
+height: 117px;
+width: 100%
+}
+.header{
+position: relative;
+padding-right: 550px;
+padding-left: 60px;
+font-family: 'Roboto', sans-serif;
+color: white;
+font-weight: bold;
+font-size: 1cm;
+}
+.toptable{
+border-spacing: 10px;
+margin-right: 100px;
+background-color: #3b5998;
+}
+.typo {
+color: white;
+font-family: 'Roboto', sans-serif;
+font-size: .35cm;
+}
+
+.btn {
+box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);
+background-color:#637aad;
+border:1px solid #314179;
+display:inline-block;
+cursor:pointer;
+color:#ffffff;
+font-family:Arial;
+font-size:13px;
+font-weight:bold;
+padding:2px 9px;
+text-decoration:none;
+}
+.btn:hover {
+background:linear-gradient(to bottom, #5972a7 5%, #637aad 100%);
+background-color:#5972a7;
+}
+.btn:active {
+position:relative;
+top:1px;
+}
+
+.midtable{
+position: relative;
+background-color: #3b5998;
+}
+
+
+
+.split{
+	height: 100%;
+  	width: 50%;
+  	position: absolute;
+  	background-color: #EDF0F5;
+}
+
+.left{
+	left: 0;
+}
+
+.right{
+	right: 0;
+	/*left:200px;*/
+}
+
+.subtit{
+	color: black;
+	padding-left: 100px;
+
+}
+
+.inps{
+	border-radius: 10px;
+	height: 1cm;
+	width: 5cm;
+	padding: 12px 20px;
+  	margin: 0px 0.5px;
+  	box-sizing: border-box;
+  	border: 0.5px solid #DBE6F5;
+  	border-radius: 4px
+}
+
+.mail{
+	width: 10.2cm;
+}
+
+
+.passcode{
+	width: 10.2cm;
+}
+
+input::placeholder{
+	font-size: 18px;
+}
+
+h2{
+	font-family: sans-serif;
+color: #CACFD2 ;
+text-decoration: none;
+font-size: 0.5cm;
+}
+
+.radi{
+	font-family: sans-serif;
+	color: black ;
+	font-size: 16px;
+}
+
+.notice{
+	font-family: sans-serif;
+	width: 50%;
+	font-size: 10px;
+	color: #6a757c ;
+
+}
+
+.low{
+	color:#3b5998;
+	font-family: sans-serif;
+	font-size: 14px;
+}
+
+
+.myButton {
+	box-shadow:inset 1px 1px 5px -5px #9acc85;
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:17px 76px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	background-color:#68a54b;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+        
+.sm{
+	left: 0;
+	padding-right: 0px;
+
+}
+
+hr{
+	/*padding-left: 100px;*/
+	/*width: 70%;*/
+	margin-right: 170px;
+}
+
+html {
+  height: 100%;
+  margin: auto;
+  /*overflow-x: hidden;*/
+  /*width: 960px;*/
+}
+
+html.page {
+    overflow: visible;
+}
+
+.bb {
+	color:black;
+	font-size: 14px;
+}
+
+.midlf{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 20px;
+	padding-left: 50px;
+	margin-left: 100px;
+	width: 74%;
+	color: #141f1f;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+
+.midlf2{
+	font-family: 'Roboto', sans-serif;
+	padding-top: 50px;
+	padding-left: 50px;
+	/*width: 74%;*/
+	color: #141f1f;
+	font-family: sans-serif;
+	font-size: 12px;
+
+}
+
+.skill-row{
+	width: 50%;
+	margin: 100px auto 100px auto;
+	text-align: left;
+	line-height: 2;
+}
+
+.up {
+	width: 8%;
+	float: left;
+	margin-left: 100px;
+	margin-right: 50px;
+
+}
+
+.co {
+	width: 11%;
+	float: left;
+	margin-left: 90px;
+	margin-right: 40px;
+
+}
+
+.ap {
+	width: 11%;
+	float: left;
+	margin-left: -120px;
+	margin-top: 70px;
+	margin-right: 50px;
+
+}
+
+
+.text1{
+	/*padding-left: 50px;*/
+	width: 100%;
+	font-weight: normal;
+	font-size: 14px;
+	color: black;
+	margin-top: 50px;
+	font-size: 20px;
+
+}
+
+.text2{
+	/*padding-left: 50px;*/
+	/*margin-left: 20px;*/
+	width: 100%;
+	font-weight: normal;
+	font-size: 14px;
+	color: black;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.text3{
+	width: 100%;
+	/*padding-left: 50px;*/
+	font-weight: normal;
+	font-size: 14px;
+	color: black;
+	margin-top: 100px;
+	margin-left: 130px;
+	font-size: 20px;
+}
